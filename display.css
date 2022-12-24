@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+}
+:root{
+    /*### Primary*/
+    --Soft-orange: hsl(35, 77%, 62%);
+    --Soft-red: hsl(5, 85%, 63%);
+    /*### Neutral*/
+    --Off-white: hsl(36, 100%, 99%);
+    --Grayish-blue: hsl(233, 8%, 79%);
+    --Dark-grayish-blue: hsl(236, 13%, 42%);
+    --Very-dark-blue: hsl(240, 100%, 5%);
+   }
+   body{
+    font-family: 'Inter', sans-serif;
+    color: var(--Very-dark-blue);
+    background-color: var(--Off-white);
+  
+}
+ol
+{
+    list-style: none;
+
+}
+ol{
+    display: flex;
+    gap:1rem;
+    padding:2rem;
+text-align: center;
+}
+h1{
+    color: hsl(24, 72%, 46%);
+    text-align: center;
+}
+p{
+    display: inline;
+    font-family: fantasy;
+    font-size: small;
+    font-weight: 600;
+    text-align: center;
+    line-height:1px;
+    word-spacing: 3px;
+
+}
+#rached{
+    color: hsla(140, 94%, 12%, 0.678);
+    text-align: center;
+}
+.rached1{
+
+margin:100px
+
+
+}
+.test{
+    display:flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+#test2{
+    text-align: center;
+    color: brown;
+}    
+.test3{
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+
+    
+    
